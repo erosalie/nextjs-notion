@@ -2,7 +2,7 @@ import { siteConfig } from './lib/site-config'
 
 export default siteConfig({
   // the site's root Notion page (required)
-  rootNotionPageId: '7875426197cf461698809def95960ebf',
+  rootNotionPageId: '3a9960833ecb4f1db76a10e5e6df7656',
 
   // if you want to restrict pages to a single notion workspace (optional)
   // (this should be a Notion ID; see the docs for how to extract this)
@@ -11,22 +11,19 @@ export default siteConfig({
   // basic site info (required)
   name: 'Next.js Notion Starter Kit',
   domain: 'nextjs-notion-starter-kit.transitivebullsh.it',
-  author: 'Travis Fischer',
+  author: 'Test',
 
   // open graph metadata (optional)
   description: 'Example Next.js Notion Starter Kit Site',
 
   // social usernames (optional)
-  twitter: 'transitive_bs',
-  github: 'transitive-bullshit',
-  linkedin: 'fisch2',
-  // mastodon: '#', // optional mastodon profile URL, provides link verification
-  // newsletter: '#', // optional newsletter URL
-  // youtube: '#', // optional youtube channel name or `channel/UCGbXXXXXXXXXXXXXXXXXXXXXX`
-
+  twitter: 'info_rosalie',
+  // mastodon: 'https://infosec.exchange/@erosalie', // optional mastodon profile URL, provides link verification
+  // newsletter: 'https://infoepi.substack.com', // optional newsletter URL
+  
   // default notion icon and cover images for site-wide consistency (optional)
   // page-specific values will override these site-wide defaults
-  defaultPageIcon: null,
+  defaultPageIcon: "https://i.gyazo.com/545ecfd425d0cfd976840e44d256047b.png",
   defaultPageCover: null,
   defaultPageCoverPosition: 0.5,
 
