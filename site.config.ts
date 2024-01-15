@@ -23,7 +23,7 @@ export default siteConfig({
   
   // default notion icon and cover images for site-wide consistency (optional)
   // page-specific values will override these site-wide defaults
-  defaultPageIcon: "https://i.gyazo.com/545ecfd425d0cfd976840e44d256047b.png",
+  defaultPageIcon: null,
   defaultPageCover: null,
   defaultPageCoverPosition: 0.5,
 
